@@ -24,7 +24,7 @@ bot.on ('message',message => {
   if (message.content === prefix + 'invitation'){
       const embed =new Discord.MessageEmbed()
       .setTitle("__**Voici un pass à partager**__")
-      .setDescription('https://discord.gg/pDjrHXb')
+      .setDescription('https://discord.gg/fXNZCxC')
       .setImage("https://pm1.narvii.com/6134/e40153ce557678a6761379c58ce43c85df508e59_hq.jpg")
       .setColor('#ae1efc')
       message.channel.send(embed)
