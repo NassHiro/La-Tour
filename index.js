@@ -131,4 +131,4 @@ bot.on("ready", () => {
       `${prefix}help`
     ]
 })
-bot.login(bot_token)
+bot.login(process.env.bot_token)
