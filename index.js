@@ -31,7 +31,7 @@ bot.on ('message',message => {
     }
   })
   bot.on('guildMemberAdd', member => {
-    const channel = member.guild.channels.cache.find(ch => ch.name === 'général');
+    const channel = member.guild.channels.cache.find(ch => ch.name === '👑●arrivés-et-départ');
     var embedbvn = new Discord.MessageEmbed()
     .setDescription(`Bienvenue à ${member} dans __**La Tour :tokyo_tower:**__`)
     .setImage('https://images3.alphacoders.com/731/thumb-1920-731741.png')
@@ -40,7 +40,7 @@ return channel.send(embedbvn)
 
     })
     bot.on('guildMemberRemove', member => {
-      const channel = member.guild.channels.cache.find(ch => ch.name === 'ui');
+      const channel = member.guild.channels.cache.find(ch => ch.name === '👑●arrivés-et-départ');
       var embedbvn = new Discord.MessageEmbed()
       .setDescription(`Au revoir à ${member} qui a malheureusement quitté __**La Tour :tokyo_tower:**__`)
       .setImage('https://risibank.fr/cache/stickers/d1498/149853-full.jpg')
