@@ -131,4 +131,4 @@ bot.on("ready", () => {
       `${prefix}help`
     ]
 })
-bot.login('NzA2ODM3NjI4NDM1MTY5MzQy.XrAFQg.5dDh3RRGX7ipsAio0a2sA76YHoQ')
+bot.login(bot_token)
