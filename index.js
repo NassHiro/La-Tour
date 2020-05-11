@@ -43,7 +43,6 @@ return channel.send(embedbvn)
       const channel = member.guild.channels.cache.find(ch => ch.name === '👑●arrivés-et-départ');
       var embedbvn = new Discord.MessageEmbed()
       .setDescription(`Au revoir à ${member} qui a malheureusement quitté __**La Tour :tokyo_tower:**__`)
-      .setImage('https://risibank.fr/cache/stickers/d1498/149853-full.jpg')
       .setColor('#ae1efc')
   return channel.send(embedbvn)
 })
