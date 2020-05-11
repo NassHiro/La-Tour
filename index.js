@@ -59,8 +59,8 @@ function entierAleatoire(min, max){
  return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 var entier = entierAleatoire(1, 2);
-if(entier == 1) return message.channel.send('pile')
-if(entier == 2) return message.channel.send('face')
+if(entier == 1) return message.channel.send('> pile :slot_machine:')
+if(entier == 2) return message.channel.send('> face :slot_machine')
 }
     })
   bot.on ('message',message => {
