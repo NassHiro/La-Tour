@@ -31,7 +31,7 @@ bot.on ('message',message => {
     }
   })
   bot.on('guildMemberAdd', member => {
-    const channel = member.guild.channels.cache.find(ch => ch.name === '『👍』bienvenue');
+    const channel = member.guild.channels.cache.find(ch => ch.name === '『⭐』général');
     var embedbvn = new Discord.MessageEmbed()
     .setDescription(`Bienvenue à ${member} dans __**La Tour :tokyo_tower:**__`)
     .setImage('https://images3.alphacoders.com/731/thumb-1920-731741.png')
