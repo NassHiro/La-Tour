@@ -34,7 +34,7 @@ bot.on ('message',message => {
     const channel = member.guild.channels.cache.find(ch => ch.name === '『👍』bienvenue');
     var embedbvn = new Discord.MessageEmbed()
     .setDescription(`Bienvenue à ${member} dans __**La Tour :tokyo_tower:**__`)
-    .setImage('https://images3.alphacoders.com/731/thumb-1920-731741.png')
+    .setImage('https://media.discordapp.net/attachments/426440596425670658/710524318450188378/tenor.gif')
     .setColor('#ae1efc')
 return channel.send(embedbvn)
 
