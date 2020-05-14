@@ -117,6 +117,15 @@ if(entier == 2) return message.channel.send('> face')
           message.channel.send(embed)
         }
       })
+    bot.on ('message',message => {
+        if (message.content === prefix + 'test'){
+            const embed =new Discord.MessageEmbed()
+            .setTitle('test')
+            .setURL('https://media.discordapp.net/attachments/426440596425670658/710524318450188378/tenor.gif')
+            .setColor('#ae1efc')
+            message.channel.send(embed)
+        }
+      })
 bot.on("ready", () => {
     console.log("Be ready")
     
