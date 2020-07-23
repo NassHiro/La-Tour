@@ -40,7 +40,7 @@ return channel.send(embedbvn)
 
     })
     bot.on('guildMemberRemove', member => {
-      const channel = member.guild.channels.cache.find(ch => ch.name === '👑●arrivés-et-départ');
+      const channel = member.guild.channels.cache.find(ch => ch.name === '【👑】départs');
       var embedbvn = new Discord.MessageEmbed()
       .setDescription(`Au revoir à ${member} qui a malheureusement quitté __**La Tour :tokyo_tower:**__`)
       .setColor('#ae1efc')
